@@ -1,5 +1,22 @@
 <fable>
-	<page>
+  
+	<page background="bg1.png">
+    <agent text="Meu Mundo"  x="20"  y="450" font-size="32"/>
+    <agent text="ERA UMA VEZ RAGNA" x="20"  y="400" width="300" on-touch="story2">
+      
+      
+      <story2 text="ERA UMA VEZ RAGNA" on-touch="story3" />
+      <story3 text="ERA UMA VEZ " />
+    
+    </agent>
+    
+    
+      
+    <agent img="ground1.png" x="0"  y="0"  width="100"   height="100"  />
+    <agent img="ground2.png" x="100"  y="0"  width="100"   height="100"  />
+    <agent img="ground2.png" x="200"  y="0"  width="100"   height="100"  />
+    <agent img="ground2.png" x="300"  y="0"  width="100"   height="100"  />
+    <agent img="ground2.png" x="400"  y="0"  width="100"   height="100"  />
   
     
   </page>
